@@ -1,0 +1,133 @@
+/* Todo.module.css */
+
+.todo-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-container h2 {
+  text-align: center;
+  color: #343a40;
+}
+
+.add-task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.task-input {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.add-button {
+  padding: 10px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+.todo-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.task-item.completed {
+  background-color: #d4edda;
+}
+
+.checkbox-container {
+  margin-bottom: 8px;
+}
+
+.checkbox-container input {
+  cursor: pointer;
+}
+
+
+
+.task-text {
+  color: #212529;
+  text-decoration: none;
+}
+
+.description {
+  margin-top: 8px;
+  color: #6c757d;
+}
+
+.edit-input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.update-button,
+.cancel-button {
+  padding: 8px 16px;
+  margin-right: 8px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.update-button:hover,
+.cancel-button:hover {
+  background-color: #218838;
+}
+
+.remove-button {
+  margin-right: 8px;
+  padding: 8px 16px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+.remove-button:hover {
+  background-color: #c82333;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 16px;
+  background-color: #e74d3c34;
+  border: 1px solid #e74c3c;
+  border-radius: 4px;
+  padding: 10px;
+}
